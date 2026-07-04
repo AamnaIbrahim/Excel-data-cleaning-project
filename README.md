@@ -5,8 +5,8 @@ This repository contains a comprehensive data cleaning project focused on standa
 ## Dataset Overview
 
 The project utilizes two main files:
-**`Raw Data.xlsx`**: The original dataset containing inconsistent text casing, extra spacing, hidden characters, duplicates, and unformatted columns (e.g., prior roles mixed with names, irregular party names).
-**`Cleaned Data.xlsx`**: The final output after applying various data cleaning techniques, featuring standardized columns, uniform formatting, and validated data types.
+* **`Raw Data.xlsx`**: The original dataset containing inconsistent text casing, extra spacing, hidden characters, duplicates, and unformatted columns (e.g., prior roles mixed with names, irregular party names).
+* **`Cleaned Data.xlsx`**: The final output after applying various data cleaning techniques, featuring standardized columns, uniform formatting, and validated data types.
 
 
 ## Data Cleaning Steps & Transformation Log
