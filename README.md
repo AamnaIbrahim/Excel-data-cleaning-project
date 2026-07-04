@@ -14,8 +14,8 @@ The project utilizes two main files:
 The following issues were identified and resolved during the data cleaning process:
 
 1. **Text Standardization (Casing):** Fixed inconsistent naming (e.g., converting `john adams` and `JAMES MONROE` to proper title case: `John Adams`, `James Monroe`).
-2. **Whitespace & Character Trimming:** Removed accidental double spaces and trailing whitespaces in names, political parties, and vice president columns (e.g., `Democratic-  Republican` fixed to `Democratic-Republican`).
-3. **Handling Duplicates:** Identified and removed duplicate entries for presidents (e.g., removing typos or repeated rows like the duplicate entries for Woodrow Wilson with typos like `Demorcatic`).
+2. **Whitespace & Character Trimming:** Removed accidental double spaces and trailing whitespaces in names, political parties, and vice president columns (e.g., `               Millard Fillmore` fixed to `Millard Fillmore`).
+3. **Handling Duplicates:** Identified and removed duplicate entries for presidents (e.g., removing typos or repeated rows like the duplicate entries for Barack Obama).
 4. **Column Restructuring:** Separated or dropped irrelevant metadata (like the messy `prior` career column) to focus exclusively on essential presidential details: `S.No.`, `President`, `Party`, `Vice President`, `Salary`, and system dates.
 5. **Data Type and Currency Alignment:** Formatted numerical values such as `Salary` into clean numeric strings/integers for seamless mathematical computations.
 
